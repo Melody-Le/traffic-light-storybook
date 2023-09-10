@@ -5,6 +5,7 @@ import Light from "./Light";
 const meta: Meta<typeof Light> = {
   component: Light,
   title: "Light",
+  tags: ["autodocs"],
   argTypes: {
     variant: {
       control: { type: "select" },
@@ -16,6 +17,7 @@ export default meta;
 
 type Story = StoryObj<typeof meta>;
 
+/** This is How it look Like*/
 export const Base: Story = {
   args: {
     variant: "green",
@@ -33,6 +35,7 @@ export const Red: Story = {
 };
 
 // Create custom setting for user:
+/** This is Whatever*/
 
 export const Another: Story = {
   args: {

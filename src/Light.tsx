@@ -1,7 +1,11 @@
-type Props = {
+export type Props = {
   // variant: string;
-  variant: "green" | "yellow" | "red";
+  /** some description */
+  variant?: "green" | "yellow" | "red";
 };
+
+/** comment about my Light component */
+
 const Light = ({ variant = "green" }: Props) => {
   return (
     <div
