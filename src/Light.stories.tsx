@@ -50,7 +50,7 @@ export const Grouped: Story = {
       >
         <Light variant="red" />
         <Light variant="yellow" />
-        <Light variant="green" />
+        <Light variant="green" /> 
       </div>
     );
   },
