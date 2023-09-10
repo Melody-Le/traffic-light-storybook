@@ -1,6 +1,6 @@
 type Props = {
-  variant: string;
-  // variant: "green" | "yellow" | "red";
+  // variant: string;
+  variant: "green" | "yellow" | "red";
 };
 const Light = ({ variant = "green" }: Props) => {
   return (

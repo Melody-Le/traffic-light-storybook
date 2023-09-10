@@ -5,6 +5,12 @@ import Light from "./Light";
 const meta: Meta<typeof Light> = {
   component: Light,
   title: "Light",
+  argTypes: {
+    variant: {
+      control: { type: "select" },
+      options: ["green", "yellow", "red"],
+    },
+  },
 };
 export default meta;
 
@@ -50,7 +56,7 @@ export const Grouped: Story = {
       >
         <Light variant="red" />
         <Light variant="yellow" />
-        <Light variant="green" /> 
+        <Light variant="green" />
       </div>
     );
   },
