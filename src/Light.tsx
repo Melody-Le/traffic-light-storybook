@@ -1,9 +1,11 @@
-type Props = {};
-const Light = (props: Props) => {
+type Props = {
+  variant: "green" | "yellow" | "red";
+};
+const Light = ({ variant = "green" }: Props) => {
   return (
     <div
       style={{
-        background: "green",
+        background: variant,
         borderRadius: "50%",
         width: 50,
         height: 50,
