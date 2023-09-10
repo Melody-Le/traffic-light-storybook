@@ -4,7 +4,7 @@ import Light from "./Light";
 
 const meta: Meta<typeof Light> = {
   component: Light,
-  title: "Light",
+  title: "Example/Light",
   tags: ["autodocs"],
   argTypes: {
     variant: {
